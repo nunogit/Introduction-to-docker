@@ -4,7 +4,7 @@
 
 Docker is “a computer program that performs operating-system-level virtualization, also known as ‘containerization’” Wikipedia
 
-What are the advantages
+**What are the advantages**
 
 Docker is designed to enclose environments inside an image / a container. What this allows, for example, is to have a Linux machine on a Macbook, or a machine with R 3.3 when your main computer has R 3.5. This means, for example,  that you can use older versions of a package for a specific task, while still keeping the package on your machine up-to-date.
 This allows easy reproducibility, simpler deployments and application modularity.
