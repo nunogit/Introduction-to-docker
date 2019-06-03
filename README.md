@@ -33,6 +33,16 @@ ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
 3. Run the code
 > ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
 
+** Build the docker image **
+
+``
+``
+
+** Run the docker image **
+
+``
+``
+
 ## Python Examples
 
 ### 1. Python Hello World
