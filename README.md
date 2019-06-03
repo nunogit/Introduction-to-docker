@@ -15,10 +15,12 @@ This allows easy reproducibility, simpler deployments and application modularity
 
 **Dockerfile**
 
-> FROM r-base
-> 
-> COPY ./helloWorld.R /root/
-> ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
+```
+FROM r-base
+
+COPY ./helloWorld.R /root/
+ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
+```
 
 **Dockerfile explained**
 
