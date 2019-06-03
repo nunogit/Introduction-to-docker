@@ -1,0 +1,4 @@
+sudo docker build --rm -t macsbio/rhelloworld .
+
+sudo docker run macsbio/rhelloworld
+
