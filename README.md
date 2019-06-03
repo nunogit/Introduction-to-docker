@@ -13,12 +13,14 @@ This allows easy reproducibility, simpler deployments and application modularity
 
 ### Creating an enviroment
 
-Dockerfile
+*Dockerfile*
 
 > FROM r-base
 > 
 > COPY ./helloWorld.R /root/
 > ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
+
+*Dockerfile explained*
 
 1. Choose an image from (dockerhub)[https://hub.docker.com/]. Dockerhub contains hundreds of prebuilt docker containers. One just needs to pick the one closer to the end result. There are images with the basic OSs (Ubuntu, Debian, etc.); Development environments (R-studio; R with Bioconductor); With frameworks (Java1.8; Tomcat8); Pick the one closer to your end result.
 > FROM r-base
