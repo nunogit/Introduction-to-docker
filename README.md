@@ -45,7 +45,7 @@ ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
 
 ## Python Examples
 
-### 1. [Python Hello World](examples/)
+### 1. [Python Hello World](examples/R/helloWorld)
 ### 2. [Python Custom Script]
 
 ## R Examples
