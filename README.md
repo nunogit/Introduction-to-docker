@@ -45,12 +45,18 @@ ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
 
 ## Python Examples
 
-### 1. [Python Hello World](examples/R/helloWorld)
-### 2. [Python Custom Script]
+### 1. [Python Hello World](examples/Python/helloWorld)
+### 2. [Python Custom Script](examples/Python/)
 
 ## R Examples
 
-### 1. [R Hello World]
-### 2. [R Run script]
-### 3. [R Run an interactive shell on R Studio]
+### 1. [R Hello World](examples/R/helloWorld)
+### 2. [R Run script](examples/R/helloWorld)
+### 3. [R Run an interactive shell on R Studio](examples/R/helloWorld)
+### 4. [R Run an R Studio script](examples/R/helloWorld)
+### 5. [R Run an interactive shell on R Studio](examples/R/helloWorld)
+
+## Matlab Examples
+
+### 1. [R Hello World](examples/R/helloWorld)
 
