@@ -24,6 +24,8 @@ ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
 
 **Dockerfile explained**
 
+0. Docker is based on stackable image concept. You will be building an image on top of an already existing one.
+
 1. Choose an image from [dockerhub](https://hub.docker.com/). Dockerhub contains hundreds of prebuilt docker containers. One just needs to pick the one closer to the end result. There are images with the basic OSs (Ubuntu, Debian, etc.); Development environments (R-studio; R with Bioconductor); With frameworks (Java1.8; Tomcat8); Pick the one closer to your end result.
 > FROM r-base
 
