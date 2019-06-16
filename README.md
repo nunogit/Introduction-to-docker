@@ -35,13 +35,16 @@ ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
 
 **Build the docker image**
 
-``
-``
+`docker build --tag [imageName] [location]`
+
+`docker build --tag rexample .`
 
 **Run the docker image**
 
-``
-``
+`docker run --name [instanceName] [imageName]`
+
+`docker run --name rexample-run rexample`
+
 
 ## Python Examples
 
