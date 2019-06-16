@@ -58,5 +58,5 @@ ENTRYPOINT ["Rscript",  "/root/helloWorld.R"]
 
 ## Matlab Examples
 
-### 1. [R Hello World](examples/R/helloWorld)
+### 1. [Matlab example](examples/Matlab/helloWorld)
 
